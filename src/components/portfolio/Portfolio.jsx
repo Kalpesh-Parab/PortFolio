@@ -15,7 +15,7 @@ const items = [
     title: 'React-Booking App',
     img: '/Booking.jpg',
     desc: 'Created a high-performance booking application utilizing React, Node.js, and MongoDB. The platform features a responsive UI for seamless hotel searches and reservations, alongside a scalable backend API for user authentication and booking management, ensuring efficient data handling.',
-    link: 'https://www.google.com/',
+    link: 'https://github.com/Kalpesh-Parab',
   },
   {
     id: 3,
