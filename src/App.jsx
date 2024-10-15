@@ -1,5 +1,5 @@
 import './app.scss';
-import About from './components/about/about';
+import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Cursor from './components/cursor/Cursor';
 import Hero from './components/hero/Hero';
