@@ -5,27 +5,31 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 const items = [
   {
     id: 1,
-    title: 'React Commerce',
-    img: 'https://images.pexels.com/photos/1242286/pexels-photo-1242286.jpeg?auto=compress&cs=tinysrgb&w=600',
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore excepturi officia error impedit optio quod, magni nemo laboriosam, quidem numquam enim veniam tempora veritatis accusantium maiores facilis ullam fugiat iure.',
+    title: 'AI Chat Application',
+    img: '/AI_CHAT.gif',
+    desc: 'Developed a full-stack AI chat platform using React, Express, and MongoDB, powered by Google Gemini AI. Enhanced real-time interactions and optimized server-side processing, achieving a 25% reduction in latency for improved performance and user experience.',
+    link: 'https://github.com/Kalpesh-Parab/AI-Chat-react.git',
   },
   {
     id: 2,
-    title: 'Chat Commerce',
-    img: 'https://images.pexels.com/photos/542517/pexels-photo-542517.jpeg?auto=compress&cs=tinysrgb&w=600',
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore excepturi officia error impedit optio quod, magni nemo laboriosam, quidem numquam enim veniam tempora veritatis accusantium maiores facilis ullam fugiat iure.',
+    title: 'React-Booking App',
+    img: '/Booking.jpg',
+    desc: 'Created a high-performance booking application utilizing React, Node.js, and MongoDB. The platform features a responsive UI for seamless hotel searches and reservations, alongside a scalable backend API for user authentication and booking management, ensuring efficient data handling.',
+    link: 'https://www.google.com/',
   },
   {
     id: 3,
-    title: 'Hello Commerce',
-    img: 'https://images.pexels.com/photos/54267/sunflower-blossom-bloom-flowers-54267.jpeg?auto=compress&cs=tinysrgb&w=600',
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore excepturi officia error impedit optio quod, magni nemo laboriosam, quidem numquam enim veniam tempora veritatis accusantium maiores facilis ullam fugiat iure.',
+    title: 'React-Admin Dashboard',
+    img: '/Admin_react.gif',
+    desc: 'Developed a scalable admin dashboard using React, centralizing user and product management with effective data visualization. Integrated dark mode functionality to enhance user experience and usability for prolonged engagement, making the interface more accessible and user-friendly.',
+    link: 'https://github.com/Kalpesh-Parab/yatri_Travels/tree/main/admin/src',
   },
   {
     id: 4,
-    title: 'Next Commerce',
-    img: 'https://images.pexels.com/photos/62279/pexels-photo-62279.jpeg?auto=compress&cs=tinysrgb&w=600',
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore excepturi officia error impedit optio quod, magni nemo laboriosam, quidem numquam enim veniam tempora veritatis accusantium maiores facilis ullam fugiat iure.',
+    title: 'IPL Win Predictor',
+    img: '/IPL_Win_Predictor.gif',
+    desc: `Designed a machine learning model capable of predicting IPL match outcomes with 88% accuracy. Implemented advanced optimization techniques to reduce model training time by 30%, enhancing the system's responsiveness for real-time data predictions.`,
+    link: 'https://github.com/Kalpesh-Parab/IPL.git',
   },
 ];
 
@@ -48,7 +52,9 @@ const Single = ({ item }) => {
           <motion.div className='textContainer' style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <button>
+              <a href={item.link}>See Demo</a>
+            </button>
           </motion.div>
         </div>
       </div>
