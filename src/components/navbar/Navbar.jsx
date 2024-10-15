@@ -15,13 +15,25 @@ const Navbar = () => {
           Kalpesh Parab
         </motion.span>
         <div className='social'>
-          <a href='https://www.linkedin.com/in/kalpesh-parab-a53369202/'>
+          <a
+            href='https://www.linkedin.com/in/kalpesh-parab-a53369202/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img src='/linkedin.png' />
           </a>
-          <a href='https://leetcode.com/u/Kalpesh_Parab/'>
+          <a
+            href='https://leetcode.com/u/Kalpesh_Parab/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img src='/leetcode.png' />
           </a>
-          <a href='https://github.com/Kalpesh-Parab'>
+          <a
+            href='https://github.com/Kalpesh-Parab'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img src='/github.png' />
           </a>
         </div>
