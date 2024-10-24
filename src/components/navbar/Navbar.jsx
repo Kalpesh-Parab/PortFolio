@@ -20,21 +20,21 @@ const Navbar = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img src='/linkedin.png' />
+            <img src='./linkedin.png' />
           </a>
           <a
             href='https://leetcode.com/u/Kalpesh_Parab/'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img src='/leetcode.png' />
+            <img src='./leetcode.png' />
           </a>
           <a
             href='https://github.com/Kalpesh-Parab'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img src='/github.png' />
+            <img src='./github.png' />
           </a>
         </div>
       </div>
